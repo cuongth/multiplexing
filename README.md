@@ -37,7 +37,7 @@ We implement a echo-server handles multiple I/O operations concurrently within a
     </tr>
     <tr>
         <td><b>poll server</b></td>
-        <td>1.447111 seconds seconds</td>
+        <td>1.447111 seconds</td>
     </tr>
     <tr>
         <td><b>epoll server</b></td>
@@ -45,4 +45,8 @@ We implement a echo-server handles multiple I/O operations concurrently within a
     </tr>
 </table>
 
-
+- As the number of connections increases (> 1000), epoll will show significantly better performance
+- The difference becomes more pronounced with:
+    - Higher number of connections
+    - More frequent I/O operations
+    - Longer running time
