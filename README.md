@@ -13,6 +13,7 @@ We implement a echo-server handles multiple I/O operations concurrently within a
     gcc -o server_epoll server_epoll.c
     gcc -o server_poll server_poll.c
     gcc -o server_select server_select.c
+    gcc -o client_benchmark client_benchmark.c
 
 ## Execute
 
