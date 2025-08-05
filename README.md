@@ -25,23 +25,23 @@ We implement a echo-server handles multiple I/O operations concurrently within a
 
 ## Benchmark
 
-    <table>
-      <tr>
+<table>
+    <tr>
         <td><b>amd ryzen 3 1200 quad-core</b></td>
         <td>Total time taken:</td>
-      </tr>
-      <tr>
+    </tr>
+    <tr>
         <td><b>select server</b></td>
         <td>14.522968 seconds</td>
-      </tr>
-      <tr>
+    </tr>
+    <tr>
         <td><b>poll server</b></td>
         <td>1.447111 seconds seconds</td>
-      </tr>
-      <tr>
+    </tr>
+    <tr>
         <td><b>epoll server</b></td>
         <td>1.224191 seconds</td>
-      </tr>
-    </table>
+    </tr>
+</table>
 
 
